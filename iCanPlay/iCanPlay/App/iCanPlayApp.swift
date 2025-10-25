@@ -10,7 +10,7 @@ import SwiftData
 
 @main
 struct iCanPlayApp: App {
-    var sharedModelContainer: ModelContainer = {
+        var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
         ])
